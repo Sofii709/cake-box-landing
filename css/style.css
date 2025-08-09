@@ -252,29 +252,12 @@ h2 {
     }
 
     .map p {
-    font-size: 10rem;
-}
+        font-size: 10rem;
+    }
 
-.footer p {
-    padding-left: 60rem;
-}
-
-.footer a {
-    width: 100%;
-}
-
-.footer img {
-    min-width: 30px;
-    min-height: 30px;
-}
-
-.footer p {
-    font-size: 11px;
-}
-
-.footer a {
-    font-size: 11px;
-}
+    .footer p {
+        padding-left: 60rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -291,6 +274,23 @@ h2 {
 
     .contacts-text {
         display: block;
+    }
+
+    .footer a {
+        width: 100%;
+    }
+
+    .footer img {
+        min-width: 30px;
+        min-height: 30px;
+    }
+
+    .footer p {
+        font-size: 11px;
+    }
+
+    .footer a {
+        font-size: 11px;
     }
 }
 
