@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 0.7px;
+}
+
 body {
     font-family: "Rubik";
+    font-size: 16rem;
 }
 
 section {
-    padding-bottom: 100px;
+    padding-bottom: 100rem;
 }
 
 ul {
@@ -21,37 +26,37 @@ a {
 }
 
 h1 {
-    padding-bottom: 50px;
+    padding-bottom: 50rem;
 }
 
 h1,
 h2,
 h3 {
-    font-weight: 400px;
+    font-weight: 400rem;
     text-align: center;
 }
 
 h1,
 h2 {
-    font-size: 72px;
-    letter-spacing: 4px;
+    font-size: 52rem;
+    letter-spacing: 4rem;
     color: #333;
 }
 
 h2 {
-    padding-bottom: 70px;
+    padding-bottom: 70rem;
     text-align: center;
 }
 
 .Main-bg a {
     display: inline-block;
-    min-width: 252px;
-    border-radius: 40px;
+    min-width: 252rem;
+    border-radius: 40rem;
     background-color: #c6792b;
-    padding: 20px;
+    padding: 20rem;
     color: white;
-    letter-spacing: 1px;
-    font-size: 24px;
+    letter-spacing: 1rem;
+    font-size: 24rem;
     transition: all 1s ease;
 }
 
@@ -71,7 +76,7 @@ h2 {
 }
 
 .navigation {
-    padding: 27px 0;
+    padding: 27rem 0;
     align-items: center;
 }
 
@@ -84,17 +89,16 @@ h2 {
 }
 
 .menu {
-    column-gap: 50px;
+    column-gap: 50rem;
 }
 
 .menu a {
-    letter-spacing: 1px;
+    letter-spacing: 1rem;
     color: #333;
 }
 
 .Main-bg {
     background: #d8dadd url(../img/picturemain.jpg) center/cover no-repeat;
-    min-height: 120vh;
     padding: 15% 0;
     text-align: center;
 }
@@ -103,30 +107,33 @@ h2 {
     text-align: center;
 }
 
-.assortment div {
-    column-gap: 50px;
+.assortment div,
+.work,
+.contacts .flex-between {
+    gap: 20rem;
+    flex-wrap: wrap;
 }
 
 .assortment h2 {
-    font-size: 60px;
-    letter-spacing: 4px;
+    font-size: 60rem;
+    letter-spacing: 4rem;
 }
 
 .assortment h3 {
-    padding: 28px 0;
-    font-size: 24px;
-    letter-spacing: 2px;
+    padding: 28rem 0;
+    font-size: 24rem;
+    letter-spacing: 2rem;
     text-transform: uppercase;
     color: #fff;
 }
 
 .assortment figure {
-    max-width: 18vw;
     background-color: #333;
     color: white;
     text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 2px;
+    font-size: 14rem;
+    letter-spacing: 2rem;
+    max-width: 40vw;
 }
 
 .assortment img {
@@ -136,8 +143,8 @@ h2 {
 }
 
 .work-text p {
-    margin-bottom: 40px;
-    font-size: 20px;
+    margin-bottom: 40rem;
+    font-size: 20rem;
 }
 
 .work-picture {
@@ -148,60 +155,62 @@ h2 {
     width: 100%;
 }
 
-.work {
-    column-gap: 50px;
-}
-
-.work-text {
-    max-width: 40%;
-}
-
 .work-text h2 {
     line-height: 0.8em;
-    padding-bottom: 55px;
+    padding-bottom: 55rem;
 }
 
 .work h2 {
-    font-size: 62px;
-    letter-spacing: 4px;
+    font-size: 62rem;
+    letter-spacing: 4rem;
 }
 
 .bg {
     background: #333 url(../img/cake.jpg) center/cover no-repeat;
-    min-height: 300px;
+    max-height: 300rem;
 }
 
 .contacts h2 {
     text-align: center;
-    font-size: 74px;
-    letter-spacing: 4px;
+    font-size: 74rem;
+    letter-spacing: 4rem;
 }
 
 .contacts-text div {
-    margin-bottom: 60px;
+    margin-bottom: 60rem;
+}
+
+.contacts-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contacts {
-    font-size: 36px;
-    letter-spacing: 2px;
+    font-size: 36rem;
+    letter-spacing: 2rem;
 }
 
 .map {
     margin-right: 0;
 }
 
+.map img {
+    width: 100%;
+}
+
 .contacts a {
-    font-size: 24px;
+    font-size: 24rem;
     color: #333;
 }
 
 .footer {
     background-color: #333;
-    padding: 60px;
+    padding: 60rem;
 }
 
 .footer a {
-    column-gap: 10px;
+    column-gap: 10rem;
 }
 
 .footer a {
@@ -211,19 +220,52 @@ h2 {
 }
 
 .footer div {
-    column-gap: 20px;
+    column-gap: 20rem;
 }
 
 .footer p {
     text-align: center;
     align-items: center;
-    padding-left: 60px;
-    padding-top: 30px;
+    padding-left: 60rem;
+    padding-top: 30rem;
     color: white;
 }
 
 .flex {
     display: flex;
-  column-gap: 90px;
+    column-gap: 90rem;
     align-items: center;
+}
+
+@media screen and (min-width: 425px) {
+
+    h1,
+    h2 {
+        font-size: 72rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .assortment div,
+    .work,
+    .contacts .flex-between {
+        flex-wrap: nowrap;
+    }
+
+    .work-text {
+        max-width: 50%;
+    }
+
+    .contacts-text {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .assortment div,
+    .work {
+        column-gap: 50rem;
+    }
 }
