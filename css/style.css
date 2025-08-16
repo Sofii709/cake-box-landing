@@ -76,8 +76,9 @@ h2 {
 }
 
 .navigation {
-    padding: 27rem 0;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .navigation a {
@@ -299,5 +300,11 @@ h2 {
     .assortment div,
     .work {
         column-gap: 50rem;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
     }
 }
