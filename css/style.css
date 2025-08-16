@@ -221,12 +221,12 @@ h2 {
     color: white;
     align-items: center;
     justify-content: center;
-    font-size: 6px;
+    font-size: 7px;
 }
 
 .footer img {
-    max-width: 10px;
-    max-height: 10px;
+    max-width: 11px;
+    max-height: 11px;
 }
 
 .footer div {
@@ -238,7 +238,7 @@ h2 {
     align-items: center;
     padding-top: 30rem;
     color: white;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 
