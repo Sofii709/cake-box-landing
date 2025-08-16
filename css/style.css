@@ -245,6 +245,10 @@ h2 {
     flex-wrap: wrap;
 }
 
+.footer-top div {
+    padding: 10px;
+}
+
 
 .flex {
     display: flex;
