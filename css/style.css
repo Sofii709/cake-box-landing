@@ -171,7 +171,7 @@ h2 {
 
 .bg {
     background: #333 url(../img/cake.jpg) center/cover no-repeat;
-    max-height: 300rem;
+    min-height: 300rem;
 }
 
 .contacts h2 {
