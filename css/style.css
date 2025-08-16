@@ -306,5 +306,6 @@ h2 {
         flex-wrap: wrap;
         gap: 20px;
         justify-content: space-between;
+        font-size: 20px;
     }
 }
